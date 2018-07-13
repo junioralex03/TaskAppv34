@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ado.edu.itla.taskapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="TaskApp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="dp"
+        tools:layout_editor_absoluteY="dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contraceña"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/rxrContracena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confimar Contraceña"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/rxrContracena2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <RadioButton
+            android:id="@+id/rdTecnico"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:text="TECNICO" />
+
+        <RadioButton
+            android:id="@+id/rdNormal"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:text="NORMAL" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:text="Registrar"
+            tools:layout_editor_absoluteX="220dp"
+            tools:layout_editor_absoluteY="63dp" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:text="Registrar"
+            tools:layout_editor_absoluteX="220dp"
+            tools:layout_editor_absoluteY="63dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
