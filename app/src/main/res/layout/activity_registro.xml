@@ -62,17 +62,29 @@
             android:ems="10"
             android:inputType="textPassword" />
 
-        <RadioButton
-            android:id="@+id/rdTecnico"
-            android:layout_width="117dp"
-            android:layout_height="wrap_content"
-            android:text="TECNICO" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <RadioButton
-            android:id="@+id/rdNormal"
-            android:layout_width="118dp"
-            android:layout_height="wrap_content"
-            android:text="NORMAL" />
+            <RadioButton
+                android:id="@+id/rdTecnico"
+                android:layout_width="117dp"
+                android:layout_height="wrap_content"
+                android:text="TECNICO" />
+
+            <RadioButton
+                android:id="@+id/rdNormal"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:text="NORMAL" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/btnRegistrar"
@@ -83,16 +95,17 @@
             tools:layout_editor_absoluteX="220dp"
             tools:layout_editor_absoluteY="63dp" />
 
-        <Button
-            android:id="@+id/btnCancelar"
-            android:layout_width="173dp"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:text="Registrar"
-            tools:layout_editor_absoluteX="220dp"
-            tools:layout_editor_absoluteY="63dp" />
+            <Button
+                android:id="@+id/btnCancelar"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:text="Registrar"
+                tools:layout_editor_absoluteX="220dp"
+                tools:layout_editor_absoluteY="63dp" />
     </LinearLayout>
 
 
 </LinearLayout>
 
+</LinearLayout>
