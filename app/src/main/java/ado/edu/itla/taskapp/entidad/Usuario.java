@@ -14,6 +14,15 @@ public class Usuario {
 
     private TipoUsuario tipoUsuario;
 
+    public Usuario(Integer id, String nombre, String email, String contrasena, TipoUsuario tipoUsuario) {
+        this.id = id;
+        this.nombre = nombre;
+        this.email = email;
+        this.contrasena = contrasena;
+        this.tipoUsuario = tipoUsuario;
+    }
+
+
     public Integer getId() {
         return id;
     }
